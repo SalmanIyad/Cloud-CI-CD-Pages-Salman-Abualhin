@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud CI/CD Beginner Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Cloud CI/CD Site</h1>
+        <p><b>Name:</b> Salman I. Abualhin</p>
+        <p><b>Course:</b> Cloud Computing</p>
+        <p><b>Instructor:</b> Dr. Faten AbuShammala</p>
+
+        <h2>What is CI/CD?</h2>
+        <p>
+            <strong>CI/CD</strong> stands for <strong>C</strong>ontinuous <strong>I</strong>ntegration and <strong>C</strong>ontinuous <strong>D</strong>eployment/<strong>D</strong>elivery. <br>
+            It is a method to frequently deliver apps to customers by introducing automation into the stages of app development. <br>
+            <strong>CI</strong> automatically tests and builds code when a developer pushes changes. <br>
+            <strong>CD</strong> automatically deploys the tested code to production. This process reduces manual errors and speeds up software updates.
+        </p>
+
+        <h2>My Pipeline</h2>
+        <p>
+            When I push my code changes to the <code>main</code> branch on GitHub, a GitHub Actions workflow is automatically triggered. <br>
+            It checks if all required files exist, builds an artifact of my website, and then deploys it directly to GitHub Pages.
+        </p>
+
+        <button id="btn">Test JavaScript Interaction</button>
+        <p id="msg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
